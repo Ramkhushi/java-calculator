@@ -80,16 +80,17 @@ To install the plugins, go to `Manage Jenkins` > `Manage Plugins` > `Available` 
 6. In the `Post-build Actions` section, add the following actions:
    - Click `Add post-build action` and choose `Record JaCoCo coverage report`. Leave the default settings.
    - (Optional) Click `Add post-build action` and choose `Clover Coverage Report`. Leave the default settings.
-   - If you want to build and deploy the Docker image, click `Add post-build action` and choose `Docker Build and Publish`. Configure the repository, Dockerfile location, and other settings as needed.
+   
 7. Click `Save`.
 
-Now, you can manually trigger the job or wait for the configured trigger to start the build. Jenkins will build, test, and deploy the manik-calculator project based on the provided configuration.
+Now, you can manually trigger the job or wait for the configured trigger to start the build. Jenkins will build, test, and deploy the java-calculator project based on the provided configuration.
+![image](https://github.com/Ramkhushi/java-calculator/assets/120269399/2f742ac2-7e6f-4a79-935e-767c1724fc86)
 
 ## Monitoring the Jenkins Job
 
 To monitor the progress and results of the Jenkins job:
 
-1. In the Jenkins dashboard, click on the job name, e.g., `manik-calculator-job`.
+1. In the Jenkins dashboard, click on the job name, e.g., `java-calculator-job`.
 2. In the `Build History` section, click on the build number to see its details.
 3. On the build details page, you can view the console output, test results, code coverage reports, and other information related to the build.
 
