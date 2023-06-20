@@ -39,20 +39,7 @@ Build the project using Maven:
 mvn clean install
 
 ```
-Build the Docker image using Maven:
 
-```
-mvn clean docker:build
-```
-
-Run the Docker container:
-
-```
-docker run -d -p 8080:8080 --name manik-calculator-container manik-calculator
-
-```
-
-Access the application in your browser at http://localhost:8080.
 
 ## Testing
 ### Smoke Test
@@ -67,7 +54,7 @@ A JMeter load test plan is provided in the jmeter-tests directory. To run the lo
 
 # Jenkins Integration
 
-This section describes how to set up a Jenkins job to build, test, and deploy the manik-calculator project.
+This section describes how to set up a Jenkins job to build, test, and deploy the java-calculator project.
 
 ## Prerequisites
 
@@ -217,13 +204,4 @@ Congratulations! You have successfully integrated the Manik-Calculator project w
 
 
 
-## Connect & Follow
 
-For more info, please connect and follow me:
-
-- Github: [https://github.com/manikcloud](https://github.com/manikcloud)
-- LinkedIn: [https://www.linkedin.com/in/vkmanik/](https://www.linkedin.com/in/vkmanik/)
-- Email: [varunmanik1@gmail.com](mailto:varunmanik1@gmail.com)
-- Facebook: [https://www.facebook.com/cloudvirtualization/](https://www.facebook.com/cloudvirtualization/)
-- YouTube: [https://bit.ly/32fknRN](https://bit.ly/32fknRN)
-- Twitter: [https://twitter.com/varunkmanik](https://twitter.com/varunkmanik)
