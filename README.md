@@ -25,13 +25,13 @@ Manik Calculator is a Java-based web application that allows users to perform ba
 1. Clone the repository:
 
 ```
-git clone https://github.com/manikcloud/manik-calculator.git
+git clone (https://github.com/Ramkhushi/java-calculator.git)
 ```
 
 Navigate to the project directory:
 
 ```
-cd manik-calculator
+cd java-calculator
 ```
 
 Build the project using Maven:
@@ -42,12 +42,7 @@ mvn clean install
 
 
 ## Testing
-### Smoke Test
-A smoke test script is provided in the project. To run the smoke test, execute the following command in the project root directory:
 
-```
-./smoke-test.sh
-```
 
 ### JMeter Load Test
 A JMeter load test plan is provided in the jmeter-tests directory. To run the load test, open JMeter, load the calculator_load_test.jmx file, and execute the test plan.
